@@ -6,7 +6,7 @@ function EntryComponent({ title, content, author }) {
       <h1>{title}</h1>
       <article className="entry__data">
         <blockquote>{content}</blockquote>
-        <addres>{author}</addres>
+        <addres className="entry__author">-{author}</addres>
       </article>
     </article></>
   );
