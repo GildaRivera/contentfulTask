@@ -28,7 +28,7 @@ function App() {
 
   return (
     <div>
-      <EntryFormComponent postNewEntry={addNewEntry} />
+          <h1>Blog entries</h1>
       {
         entries.map(element => (
           <EntryComponent title={element.title} content={element.content} author={element.author} key={element.id}/>

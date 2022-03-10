@@ -1,0 +1,28 @@
+.entry {
+    margin: 0;
+    padding: .3rem;
+    background-color: #eee;
+    font: 1rem 'Fira Sans', sans-serif;
+}
+
+.entry> h1,
+.entry__data {
+    margin: .5rem;
+    padding: .3rem;
+    font-size: 1.2rem;
+}
+
+.entry__data {
+    background: right/contain content-box border-box no-repeat white;
+}
+
+.entry__data > h2,
+.entry__data > p {
+    margin: .2rem;
+    font-size: 1rem;
+}
+
+blockquote{
+    text-align: justify;
+    white-space: break-spaces;
+}
